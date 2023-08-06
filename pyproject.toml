@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "deeplearning-ai-llm"
+version = "0.1.0"
+description = ""
+authors = ["Adolfo Villalobos <amvillalobos@uc.cl>"]
+readme = "README.md"
+packages = [{include = "deeplearning_ai_llm"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+openai = "^0.27.8"
+tiktoken = "^0.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
